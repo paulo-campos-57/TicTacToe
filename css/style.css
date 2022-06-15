@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: purple;
+    color: green;
+}
+
+.begin {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5rem;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.game--title {
+    font-size: 8vh;
+    color: green;
+}
+
+.navbar--jogo ul {
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbar--jogo ul li{
+    padding: 0 20px;
+}
+
+.navbar--jogo ul li:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.navbar--jogo ul li:nth-child(2) {
+    border-right: 1px solid white;
+}
+
+
+.navbar ul {
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    padding: 0 20px;
+}
+
+.navbar ul li:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.menu--itens {
+    text-decoration: none;
+    color: green;
+}
+
+.menu--itens:hover {
+    cursor: pointer;
+    color: lightgreen;
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: green;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #f7e4ac;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #5586e2;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+    cursor: pointer;
+}
+
+.links {
+    text-decoration: none;
+    color: #d7a62f;
+}
+
+.links:hover {
+    cursor: pointer;
+    color: lightgreen;
+}
