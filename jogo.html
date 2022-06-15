@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="game--title">Jogo da Velha</h1>
+        <nav class="navbar--jogo">
+            <ul>
+                <li>
+                    <a href="comoJogar.html" class="menu--itens">Como Jogar</a>
+                </li>
+                <li>
+                    <a href="sobreSite.html" class="menu--itens">Sobre o Site</a>
+                </li>
+                <li>
+                    <a href="index.html" class="menu--itens">Voltar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Reiniciar Partida</button>
+    </section>
+
+    <script src="JS/game.js"></script>
+</body>
+</html>
